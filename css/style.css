@@ -62,3 +62,28 @@ li:not( :last-child) .nav-link:active{
 .btn-green:active{
     background-color: rgb(78, 221, 78);
 }
+.home-container{
+    background-color: #222;
+    padding: 2rem;
+    display: flex;
+    z-index: 999;
+    position: relative;
+    box-shadow: 3px 3px 3px;
+}
+.home{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    justify-content: space-around;
+ 
+    
+}
+.welcom-test{
+    position: absolute;
+    left: 0;
+    padding: 3rem;
+top: 50%;
+transform: ;
+}
+
