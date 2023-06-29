@@ -1,0 +1,50 @@
+.photograpy-container {
+    padding: 8rem;
+    border: 3rem;
+    background-color: rgba(0, 128, 0, 0.075);
+
+}
+
+   
+
+.heading-title {
+   
+    background-color: goldenrod;
+    font-size: 1.2rem;
+bottom: 2%;
+background-position: center;
+    position: static;
+  padding: 5rem;
+  display: inline-block;
+  animation-duration: 0.3s;
+  -webkit-background-clip: text;
+
+    
+
+}
+.photograpy {
+    
+    padding: 3rem;
+    background-color: gray;
+    align-items: center;
+
+}
+.image-container {
+    /* padding: 20rem;
+    width: 80%;
+    height: 80%;; */
+    display: flex;
+    margin-right: auto;
+    border-style: dashed;
+    position:-webkit-sticky;
+}
+.photograpy-text {
+    padding: 5rem;
+    background-color: gray;
+    align-items: center;
+    border-style: dashed;
+    border-left: 20%;
+    
+
+
+}
