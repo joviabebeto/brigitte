@@ -94,7 +94,7 @@ a:hover{
 .main-skills .card{
     width: 25%;
     margin: 10px;
-    background: #fff;
+    background: moccasin;
     text-align: center;
     border-radius: 20px;
     padding: 10px;
@@ -110,8 +110,8 @@ a:hover{
     font-size: 12px;
 }
 .main-skills .card button{
-    background: orangered;
-    color: #fff;
+    background: rebeccapurple;
+    color: green;
     padding: 7px 15px;
     border-radius: 10px;
     margin-top: 15px;
@@ -136,6 +136,9 @@ a:hover{
     border-radius: 10px;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 
+
+    
+
 }
 .course-box ul{
     list-style: none;
@@ -143,8 +146,56 @@ a:hover{
 }
 .course-box ul li{
     margin: 10px;
-    color: grey;
-    cursor: pointer;
+    color:gray
+    
 }
 
-    
+    .course-box ul .active{
+        color: #000;
+        border-bottom: 1px solid #000;
+    }
+    .course-box .course{
+        display: flex;
+    }
+    .box{
+        width: 33%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background: rgb(253, 233, 233);
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }
+    .box p{
+        font-size: 12px;
+        margin-top: 5px;
+
+    }
+    .box button{
+        background: gold;
+        color: crimson;
+        padding: 7px 10px;
+        border-radius: 10px;
+        margin-top: 3rem;
+        cursor: pointer;
+    }
+    .box button:hover{
+        background: rgba(0, 0, 0, 0.842);
+
+    }
+    .box i{
+        font-size: 7rem;
+        float: right;
+        margin: -20px 20px 20px 0;
+
+
+    }
+    .html{
+        color: rgb(25,23,54);
+
+    }
+    .css{
+        color: rgb(104, 179, 35);
+    }
+    .js{
+        color: rgb(28, 98, 179);
+    }
