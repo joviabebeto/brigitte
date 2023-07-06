@@ -1,7 +1,7 @@
 .photograpy-container {
     padding: 8rem;
     border: 3rem;
-    background-color: rgba(0, 128, 0, 0.075);
+    background-color: rgba(25, 245, 25, 0.075);
 
 }
 
@@ -9,7 +9,7 @@
 
 .heading-title {
    
-    background-color: goldenrod;
+    background-color: rgb(190, 149, 23);
     font-size: 1.2rem;
 bottom: 2%;
 background-position: center;
@@ -25,7 +25,7 @@ background-position: center;
 .photograpy {
     
     padding: 3rem;
-    background-color: gray;
+    background-color: rgb(177, 152, 152);
     align-items: center;
 
 }
@@ -40,11 +40,14 @@ background-position: center;
 }
 .photograpy-text {
     padding: 5rem;
-    background-color: gray;
+    background-color: rgb(184, 55, 55);
     align-items: center;
     border-style: dashed;
     border-left: 20%;
     
 
 
+}
+.planting{
+    color: rgb(56, 56, 124);
 }
