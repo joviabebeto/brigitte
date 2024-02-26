@@ -11,7 +11,7 @@
     font-size: 62.5%;
   }
   body {
-    color: #eee;
+    color: #ecf5eb;
   
   
     font-family: "Poppins", sans-serif;
@@ -45,15 +45,18 @@
   }
   .logo:hover {
     transform: translate(3px, -3px);
-  }
+ }
   .nav-links {
     display: flex;
     gap: 2rem;
     list-style-type: none;
   }
+  .nav-link:hover{
+    transform: translate(3px,-3px);
+  }
   .nav-link:link,
   .nav-link:visited {
-    color: #eee;
+    color: #faeeee;
     display: inline-block;
     padding: 1rem 0;
     font-size: 1.8rem;
@@ -64,8 +67,8 @@
   .btn-green:link,
   .btn-green:visited {
     
-    background-color: rgb(142, 8, 15);
-    color: #eee;
+    background-color: rgb(96, 206, 22);
+    color: #180e0e;
     transition: all 0.3s;
   }
   .btn:link,
@@ -78,7 +81,7 @@
   }
   .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 2px 3px 3px #e76f6fbc;
+    box-shadow: 2px 3px 3px #bb5252bc;
   }
   .btn:active {
     transform: translateY(-1px);
@@ -86,11 +89,12 @@
   }
   .btn-green:hover {
     background-color: rgb(181, 28, 35);
-  }
+  } 
   
   .home-container {
     width: 100%;
     height: 100vh;
+    color: #000;
   
     background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?");
     background-size: cover;
@@ -104,6 +108,7 @@
     padding: 3rem;
     width: 100%;
     height: 100%;
+    color: #000;
   
     /* albackgrign-items: center; */
   
@@ -135,7 +140,7 @@
     margin-bottom: 1.2rem;
   }
   .name {
-    color: #fff;
+    color: #b42222;
     font-weight: 500;
     text-align: center;
     margin-bottom: 1.2rem;
@@ -345,7 +350,7 @@
 
   
   .skills-container {
-    background-color: #222; 
+    background-color: #0e0c0c; 
   }
   .images-container {
     display: flex;
@@ -370,6 +375,7 @@
   .skills-content:hover .skills-content--content {
     display: flex;
   }
+  /* responsive */
   @keyframes scroll {
     0% {
       transform: translateY(80%);

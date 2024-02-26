@@ -19,8 +19,9 @@ nav{
     width: 100%;
 display: flex;
 justify-content: space-around;   
-background-color: rgba(131, 107, 123, 0.322);
+background-color: rgba(8, 60, 233, 0.322);
 align-items: center;
+-webkit-background-clip: text;
 }
 .nav-links{
    padding: 20px;
@@ -30,16 +31,35 @@ align-items: center;
     list-style-type: none;
     text-transform: capitalize;
 }
-.logo-container{
-    position: relative;
-    background-image: repeating-radial-gradient(to right red, rgb(7, 238, 96), rgb(0, 183, 255));
-    
-    -webkit-background-clip: text;
-}
 .logo{
-    padding: 20px;
-    font-size: 2rem;
-   text-transform: uppercase;
-   letter-spacing: 7px;
-
+    background-image: linear-gradient(to right,rgb(11, 133, 11),rgb(206, 24, 24),blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    
 }
+
+
+button{
+    position: relative;
+    padding: 2rem;
+    background-color: rgba(0, 17, 255, 0.61)
+    
+    
+}
+.solution-container{
+    padding: 4rem;
+    font-size: large;
+    gap: 4rem;
+    background-color: rgb(101, 179, 111);
+    width: 40%;
+    height: 100%;
+}
+.Product-container{
+    width: 40%;
+}
+
+    
+
+
+
